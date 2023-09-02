@@ -81,12 +81,16 @@ code {
         margin: 0;
       }
     }
+    .inserted {
+      color: green !important;
+    }
 
     p {
       margin-top: 1rem;
       font-size: 1rem;
       width: 100%;
       max-width: 24ch;
+      color: red;
     }
   }
 }
