@@ -4,7 +4,7 @@ $notInserted = false;
 if (isset($_POST['NAME'])){
 $server="localhost";
 $username="root";
-$password="*********";
+$password="";
 $con=mysqli_connect($server,$username,$password);
 
 if (!$con){
